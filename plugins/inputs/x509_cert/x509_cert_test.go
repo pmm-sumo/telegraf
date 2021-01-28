@@ -16,10 +16,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	_tls "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/internal"
+	_tls "github.com/pmalek-sumo/telegraf/plugins/common/tls"
+	"github.com/pmalek-sumo/telegraf/testutil"
 )
 
 var pki = testutil.NewPKI("../../../testutil/pki")

@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs/system"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs/system"
+	"github.com/pmalek-sumo/telegraf/testutil"
 	"github.com/shirou/gopsutil/mem"
 	"github.com/stretchr/testify/require"
 )

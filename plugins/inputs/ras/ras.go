@@ -13,8 +13,8 @@ import (
 
 	_ "modernc.org/sqlite" //to register SQLite driver
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs"
 )
 
 // Ras plugin gathers and counts errors provided by RASDaemon

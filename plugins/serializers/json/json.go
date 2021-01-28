@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 )
 
 type serializer struct {

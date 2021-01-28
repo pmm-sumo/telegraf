@@ -9,7 +9,7 @@ import (
 
 	"errors"
 
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 )
 
 const metricName = "dmcache"

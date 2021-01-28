@@ -4,7 +4,7 @@ import (
 	"log"
 
 	"github.com/Shopify/sarama"
-	"github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/pmalek-sumo/telegraf/plugins/common/tls"
 )
 
 // ReadConfig for kafka clients meaning to read from Kafka.

@@ -4,7 +4,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 	dto "github.com/prometheus/client_model/go"
 )
 

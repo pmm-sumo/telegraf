@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 )
 
 type serializer struct {

@@ -2,8 +2,8 @@ package taglimit
 
 import (
 	"fmt"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/plugins/processors"
 	"log"
 )
 

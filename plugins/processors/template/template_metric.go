@@ -3,7 +3,7 @@ package template
 import (
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 )
 
 type TemplateMetric struct {

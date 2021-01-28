@@ -12,13 +12,13 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/parsers/csv"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/plugins/parsers/json"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/internal"
+	"github.com/pmalek-sumo/telegraf/plugins/parsers"
+	"github.com/pmalek-sumo/telegraf/plugins/parsers/csv"
+	"github.com/pmalek-sumo/telegraf/plugins/parsers/influx"
+	"github.com/pmalek-sumo/telegraf/plugins/parsers/json"
+	"github.com/pmalek-sumo/telegraf/testutil"
 )
 
 var (

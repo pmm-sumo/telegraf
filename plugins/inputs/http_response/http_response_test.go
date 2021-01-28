@@ -1,6 +1,6 @@
 // +build !windows
 
-// TODO: Windows - should be enabled for Windows when https://github.com/influxdata/telegraf/issues/8451 is fixed
+// TODO: Windows - should be enabled for Windows when https://github.com/pmalek-sumo/telegraf/issues/8451 is fixed
 
 package http_response
 
@@ -15,10 +15,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/internal"
+	"github.com/pmalek-sumo/telegraf/plugins/common/tls"
+	"github.com/pmalek-sumo/telegraf/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

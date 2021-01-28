@@ -3,7 +3,7 @@ package bond
 import (
 	"testing"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/pmalek-sumo/telegraf/testutil"
 )
 
 var sampleTest802 = `

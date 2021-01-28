@@ -11,9 +11,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	. "github.com/influxdata/telegraf/plugins/parsers/prometheus/common"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/metric"
+	. "github.com/pmalek-sumo/telegraf/plugins/parsers/prometheus/common"
 
 	dto "github.com/prometheus/client_model/go"
 	"github.com/prometheus/common/expfmt"
