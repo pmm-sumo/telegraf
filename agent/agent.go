@@ -12,9 +12,9 @@ import (
 
 	"github.com/influxdata/telegraf"
 	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/internal"
 	"github.com/influxdata/telegraf/models"
 	"github.com/influxdata/telegraf/plugins/serializers/influx"
+	"github.com/pmalek-sumo/telegraf/internal"
 )
 
 // Agent runs a set of plugins.

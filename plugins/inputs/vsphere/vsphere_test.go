@@ -11,7 +11,7 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/influxdata/telegraf/internal"
+	"github.com/pmalek-sumo/telegraf/internal"
 	itls "github.com/influxdata/telegraf/plugins/common/tls"
 	"github.com/influxdata/telegraf/testutil"
 	"github.com/influxdata/toml"

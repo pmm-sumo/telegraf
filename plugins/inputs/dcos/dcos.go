@@ -12,7 +12,7 @@ import (
 	jwt "github.com/dgrijalva/jwt-go/v4"
 	"github.com/influxdata/telegraf"
 	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/internal"
+	"github.com/pmalek-sumo/telegraf/internal"
 	"github.com/influxdata/telegraf/plugins/common/tls"
 	"github.com/influxdata/telegraf/plugins/inputs"
 )

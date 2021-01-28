@@ -13,7 +13,7 @@ import (
 
 	"cloud.google.com/go/pubsub"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
+	"github.com/pmalek-sumo/telegraf/internal"
 	"github.com/influxdata/telegraf/plugins/parsers"
 	"github.com/influxdata/telegraf/plugins/serializers"
 	"google.golang.org/api/support/bundler"

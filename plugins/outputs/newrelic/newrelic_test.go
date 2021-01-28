@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
+	"github.com/pmalek-sumo/telegraf/internal"
 	"github.com/influxdata/telegraf/testutil"
 	"github.com/newrelic/newrelic-telemetry-sdk-go/telemetry"
 	"github.com/stretchr/testify/assert"

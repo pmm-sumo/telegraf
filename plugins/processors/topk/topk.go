@@ -9,7 +9,7 @@ import (
 
 	"github.com/influxdata/telegraf"
 	"github.com/influxdata/telegraf/filter"
-	"github.com/influxdata/telegraf/internal"
+	"github.com/pmalek-sumo/telegraf/internal"
 	"github.com/influxdata/telegraf/metric"
 	"github.com/influxdata/telegraf/plugins/processors"
 )

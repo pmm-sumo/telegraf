@@ -19,8 +19,8 @@ import (
 	"github.com/influxdata/go-syslog/v2/rfc5424"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	framing "github.com/influxdata/telegraf/internal/syslog"
+	"github.com/pmalek-sumo/telegraf/internal"
+	framing "github.com/pmalek-sumo/telegraf/internal/syslog"
 	tlsConfig "github.com/influxdata/telegraf/plugins/common/tls"
 	"github.com/influxdata/telegraf/plugins/inputs"
 )

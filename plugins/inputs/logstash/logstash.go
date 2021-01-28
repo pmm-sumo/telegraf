@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/choice"
+	"github.com/pmalek-sumo/telegraf/internal"
+	"github.com/pmalek-sumo/telegraf/internal/choice"
 	"github.com/influxdata/telegraf/plugins/common/tls"
 	"github.com/influxdata/telegraf/plugins/inputs"
 	jsonParser "github.com/influxdata/telegraf/plugins/parsers/json"

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	framing "github.com/influxdata/telegraf/internal/syslog"
+	framing "github.com/pmalek-sumo/telegraf/internal/syslog"
 	"github.com/influxdata/telegraf/metric"
 	"github.com/influxdata/telegraf/testutil"
 	"github.com/stretchr/testify/assert"

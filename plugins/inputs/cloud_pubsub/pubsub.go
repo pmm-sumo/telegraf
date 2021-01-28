@@ -10,7 +10,7 @@ import (
 
 	"cloud.google.com/go/pubsub"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
+	"github.com/pmalek-sumo/telegraf/internal"
 	"github.com/influxdata/telegraf/plugins/inputs"
 	"github.com/influxdata/telegraf/plugins/parsers"
 	"golang.org/x/oauth2/google"

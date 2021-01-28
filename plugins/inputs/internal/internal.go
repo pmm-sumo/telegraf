@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"github.com/influxdata/telegraf"
-	inter "github.com/influxdata/telegraf/internal"
+	inter "github.com/pmalek-sumo/telegraf/internal"
 	"github.com/influxdata/telegraf/plugins/inputs"
 	"github.com/influxdata/telegraf/selfstat"
 )

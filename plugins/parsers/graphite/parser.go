@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/templating"
+	"github.com/pmalek-sumo/telegraf/internal/templating"
 	"github.com/influxdata/telegraf/metric"
 )
 

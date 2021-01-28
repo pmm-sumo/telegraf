@@ -7,7 +7,7 @@ import (
 	"os"
 
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal/globpath"
+	"github.com/pmalek-sumo/telegraf/internal/globpath"
 	"github.com/influxdata/telegraf/plugins/inputs"
 )
 

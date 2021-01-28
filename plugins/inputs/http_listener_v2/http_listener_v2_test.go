@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf/internal"
+	"github.com/pmalek-sumo/telegraf/internal"
 	"github.com/influxdata/telegraf/plugins/parsers"
 	"github.com/influxdata/telegraf/testutil"
 	"github.com/stretchr/testify/require"

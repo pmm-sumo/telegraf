@@ -13,8 +13,8 @@ import (
 	googlepbduration "github.com/golang/protobuf/ptypes/duration"
 	googlepbts "github.com/golang/protobuf/ptypes/timestamp"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
-	"github.com/influxdata/telegraf/internal/limiter"
+	"github.com/pmalek-sumo/telegraf/internal"
+	"github.com/pmalek-sumo/telegraf/internal/limiter"
 	"github.com/influxdata/telegraf/metric"
 	"github.com/influxdata/telegraf/plugins/inputs" // Imports the Stackdriver Monitoring client package.
 	"github.com/influxdata/telegraf/selfstat"

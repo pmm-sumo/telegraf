@@ -19,7 +19,7 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/internal"
+	"github.com/pmalek-sumo/telegraf/internal"
 	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
 	"github.com/influxdata/telegraf/plugins/inputs"
 	riemanngo "github.com/riemann/riemann-go-client"
