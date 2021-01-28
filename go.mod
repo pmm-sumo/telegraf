@@ -18,7 +18,6 @@ require (
 	github.com/Microsoft/ApplicationInsights-Go v0.4.2
 	github.com/Microsoft/go-winio v0.4.9 // indirect
 	github.com/Shopify/sarama v1.27.2
-	github.com/StackExchange/wmi v0.0.0-20180116203802-5d049714c4a6 // indirect
 	github.com/aerospike/aerospike-client-go v1.27.0
 	github.com/alecthomas/units v0.0.0-20190717042225-c3de453c63f4
 	github.com/amir/raidman v0.0.0-20170415203553-1ccc43bfb9c9
@@ -33,7 +32,6 @@ require (
 	github.com/caio/go-tdigest v2.3.0+incompatible // indirect
 	github.com/cenkalti/backoff v2.0.0+incompatible // indirect
 	github.com/cisco-ie/nx-telemetry-proto v0.0.0-20190531143454-82441e232cf6
-	github.com/cockroachdb/apd v1.1.0 // indirect
 	github.com/containerd/containerd v1.4.1 // indirect
 	github.com/couchbase/go-couchbase v0.0.0-20180501122049-16db1f1fe037
 	github.com/couchbase/gomemcached v0.0.0-20180502221210-0da75df14530 // indirect
@@ -50,7 +48,6 @@ require (
 	github.com/ericchiang/k8s v1.2.0
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
 	github.com/go-logfmt/logfmt v0.4.0
-	github.com/go-ole/go-ole v1.2.1 // indirect
 	github.com/go-ping/ping v0.0.0-20201115131931-3300c582a663
 	github.com/go-redis/redis v6.15.9+incompatible
 	github.com/go-sql-driver/mysql v1.5.0
@@ -72,14 +69,12 @@ require (
 	github.com/harlow/kinesis-consumer v0.3.1-0.20181230152818-2f58b136fee0
 	github.com/hashicorp/consul v1.2.1
 	github.com/hashicorp/go-msgpack v0.5.5 // indirect
-	github.com/hashicorp/go-rootcerts v0.0.0-20160503143440-6bb64b370b90 // indirect
 	github.com/hashicorp/memberlist v0.1.5 // indirect
 	github.com/hashicorp/serf v0.8.1 // indirect
 	github.com/influxdata/go-syslog/v2 v2.0.1
 	github.com/influxdata/tail v1.0.1-0.20200707181643-03a791b270e4
 	github.com/influxdata/toml v0.0.0-20190415235208-270119a8ce65
 	github.com/influxdata/wlog v0.0.0-20160411224016-7c63b0a71ef8
-	github.com/jackc/fake v0.0.0-20150926172116-812a484cc733 // indirect
 	github.com/jackc/pgx v3.6.0+incompatible
 	github.com/kardianos/service v1.0.0
 	github.com/karrick/godirwalk v1.16.1
@@ -92,7 +87,6 @@ require (
 	github.com/matttproud/golang_protobuf_extensions v1.0.1
 	github.com/mdlayher/apcupsd v0.0.0-20200608131503-2bf01da7bf1b
 	github.com/miekg/dns v1.0.14
-	github.com/mitchellh/go-testing-interface v1.0.0 // indirect
 	github.com/morikuni/aec v1.0.0 // indirect
 	github.com/multiplay/go-ts3 v1.0.0
 	github.com/naoina/go-stringutil v0.1.0 // indirect
@@ -111,7 +105,7 @@ require (
 	github.com/prometheus/client_model v0.2.0
 	github.com/prometheus/common v0.9.1
 	github.com/prometheus/procfs v0.0.8
-	github.com/prometheus/prometheus v2.5.0+incompatible
+	github.com/prometheus/prometheus v1.8.2-0.20181217151201-dbd1d58c8947
 	github.com/riemann/riemann-go-client v0.5.0
 	github.com/safchain/ethtool v0.0.0-20200218184317-f459e2d13664
 	github.com/samuel/go-zookeeper v0.0.0-20180130194729-c4fab1ac1bec // indirect
