@@ -13,7 +13,7 @@ import (
 	"time"
 
 	"github.com/go-ping/ping"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/pmalek-sumo/telegraf/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

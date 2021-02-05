@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 )
 
 // Process is a long-running process manager that will restart processes if they stop.

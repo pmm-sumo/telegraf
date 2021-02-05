@@ -1,6 +1,6 @@
 package aggregators
 
-import "github.com/influxdata/telegraf"
+import "github.com/pmalek-sumo/telegraf"
 
 type Creator func() telegraf.Aggregator
 

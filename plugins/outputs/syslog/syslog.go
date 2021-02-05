@@ -10,11 +10,11 @@ import (
 
 	"github.com/influxdata/go-syslog/v2/nontransparent"
 	"github.com/influxdata/go-syslog/v2/rfc5424"
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 	"github.com/pmalek-sumo/telegraf/internal"
 	framing "github.com/pmalek-sumo/telegraf/internal/syslog"
-	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	tlsint "github.com/pmalek-sumo/telegraf/plugins/common/tls"
+	"github.com/pmalek-sumo/telegraf/plugins/outputs"
 )
 
 type Syslog struct {

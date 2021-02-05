@@ -6,13 +6,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/config"
 	"github.com/pmalek-sumo/telegraf/internal"
 	"github.com/pmalek-sumo/telegraf/internal/snmp"
-	si "github.com/influxdata/telegraf/plugins/inputs/snmp"
-	"github.com/influxdata/telegraf/plugins/processors"
-	"github.com/influxdata/telegraf/plugins/processors/reverse_dns/parallel"
+	si "github.com/pmalek-sumo/telegraf/plugins/inputs/snmp"
+	"github.com/pmalek-sumo/telegraf/plugins/processors"
+	"github.com/pmalek-sumo/telegraf/plugins/processors/reverse_dns/parallel"
 )
 
 var sampleConfig = `

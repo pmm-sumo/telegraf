@@ -3,8 +3,8 @@ package agent
 import (
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/metric"
 )
 
 type MetricMaker interface {

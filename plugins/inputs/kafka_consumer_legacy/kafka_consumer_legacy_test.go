@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/pmalek-sumo/telegraf/plugins/parsers"
+	"github.com/pmalek-sumo/telegraf/testutil"
 
 	"github.com/Shopify/sarama"
 	"github.com/stretchr/testify/assert"

@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 	"github.com/pmalek-sumo/telegraf/internal"
-	_tls "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	_tls "github.com/pmalek-sumo/telegraf/plugins/common/tls"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs"
 )
 
 const sampleConfig = `

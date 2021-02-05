@@ -8,9 +8,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 	"github.com/pmalek-sumo/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/pmalek-sumo/telegraf/plugins/outputs"
 )
 
 type Amon struct {

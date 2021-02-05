@@ -17,9 +17,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 	"github.com/pmalek-sumo/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/serializers/influx"
+	"github.com/pmalek-sumo/telegraf/plugins/serializers/influx"
 )
 
 type APIError struct {

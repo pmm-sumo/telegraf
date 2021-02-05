@@ -14,7 +14,7 @@ import (
 	"time"
 
 	"github.com/pmalek-sumo/telegraf/internal"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/pmalek-sumo/telegraf/testutil"
 	"github.com/influxdata/wlog"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

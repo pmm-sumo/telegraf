@@ -11,10 +11,10 @@ import (
 	"time"
 
 	mb "github.com/goburrow/modbus"
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 	"github.com/pmalek-sumo/telegraf/internal"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/pmalek-sumo/telegraf/metric"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs"
 )
 
 // Modbus holds all data relevant to the plugin

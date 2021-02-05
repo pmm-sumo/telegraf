@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 	dto "github.com/prometheus/client_model/go"
 )
 

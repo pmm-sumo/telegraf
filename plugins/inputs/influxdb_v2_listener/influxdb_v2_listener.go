@@ -11,12 +11,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 	"github.com/pmalek-sumo/telegraf/internal"
-	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/parsers/influx"
-	"github.com/influxdata/telegraf/selfstat"
+	tlsint "github.com/pmalek-sumo/telegraf/plugins/common/tls"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs"
+	"github.com/pmalek-sumo/telegraf/plugins/parsers/influx"
+	"github.com/pmalek-sumo/telegraf/selfstat"
 )
 
 const (

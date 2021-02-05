@@ -1,9 +1,9 @@
 package jolokia2
 
 import (
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 	"github.com/pmalek-sumo/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/pmalek-sumo/telegraf/plugins/common/tls"
 )
 
 type JolokiaProxy struct {

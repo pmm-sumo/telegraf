@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/bmizerany/assert"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/pmalek-sumo/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

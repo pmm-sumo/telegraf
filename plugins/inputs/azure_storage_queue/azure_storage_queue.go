@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/Azure/azure-storage-queue-go/azqueue"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs"
 )
 
 type AzureStorageQueue struct {

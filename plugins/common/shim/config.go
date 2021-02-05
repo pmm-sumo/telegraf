@@ -8,10 +8,10 @@ import (
 	"os"
 
 	"github.com/BurntSushi/toml"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs"
+	"github.com/pmalek-sumo/telegraf/plugins/outputs"
+	"github.com/pmalek-sumo/telegraf/plugins/processors"
 )
 
 type config struct {

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
-	"github.com/influxdata/telegraf/plugins/inputs/system"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs/system"
 	"github.com/shirou/gopsutil/cpu"
 )
 

@@ -8,10 +8,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 	"github.com/pmalek-sumo/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/outputs"
-	"github.com/influxdata/telegraf/selfstat"
+	"github.com/pmalek-sumo/telegraf/plugins/outputs"
+	"github.com/pmalek-sumo/telegraf/selfstat"
 )
 
 // YandexCloudMonitoring allows publishing of metrics to the Yandex Cloud Monitoring custom metrics

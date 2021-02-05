@@ -3,10 +3,10 @@ package reverse_dns
 import (
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/config"
-	"github.com/influxdata/telegraf/plugins/processors"
-	"github.com/influxdata/telegraf/plugins/processors/reverse_dns/parallel"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/config"
+	"github.com/pmalek-sumo/telegraf/plugins/processors"
+	"github.com/pmalek-sumo/telegraf/plugins/processors/reverse_dns/parallel"
 )
 
 const sampleConfig = `

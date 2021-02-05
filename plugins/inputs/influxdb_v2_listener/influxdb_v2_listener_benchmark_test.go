@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/pmalek-sumo/telegraf/internal"
-	"github.com/influxdata/telegraf/selfstat"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/pmalek-sumo/telegraf/selfstat"
+	"github.com/pmalek-sumo/telegraf/testutil"
 )
 
 // newListener is the minimal InfluxDBV2Listener construction to serve writes.

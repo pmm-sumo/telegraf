@@ -4,9 +4,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/selfstat"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/metric"
+	"github.com/pmalek-sumo/telegraf/selfstat"
 )
 
 type RunningAggregator struct {

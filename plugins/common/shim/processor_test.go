@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/metric"
-	"github.com/influxdata/telegraf/plugins/parsers"
-	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/metric"
+	"github.com/pmalek-sumo/telegraf/plugins/parsers"
+	"github.com/pmalek-sumo/telegraf/plugins/serializers"
 	"github.com/stretchr/testify/require"
 )
 

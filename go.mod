@@ -59,6 +59,7 @@ require (
 	github.com/grpc-ecosystem/grpc-gateway v1.16.0 // indirect
 	github.com/harlow/kinesis-consumer v0.3.1-0.20181230152818-2f58b136fee0
 	github.com/hashicorp/consul v1.8.0
+	github.com/hashicorp/consul/api v1.6.0
 	github.com/hashicorp/go-hclog v0.12.2 // indirect
 	github.com/hashicorp/go-immutable-radix v1.2.0 // indirect
 	github.com/hashicorp/go-sockaddr v1.0.2 // indirect
@@ -138,6 +139,8 @@ replace github.com/satori/go.uuid => github.com/gofrs/uuid v3.2.0+incompatible
 
 replace (
 	github.com/influxdata/telegraf/agent => ./agent
+	github.com/influxdata/telegraf/config => ./config
 	github.com/influxdata/telegraf/internal => ./internal
 	github.com/influxdata/telegraf/plugins/inputs/consul => ./plugins/inputs/consul
+	github.com/influxdata/telegraf/plugins/inputs/internal => ./plugins/inputs/internal
 )

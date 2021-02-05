@@ -1,7 +1,7 @@
 package health
 
 import (
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 )
 
 type Compares struct {

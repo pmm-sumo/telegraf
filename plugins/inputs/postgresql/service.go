@@ -12,7 +12,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/influxdata/telegraf"
+	"github.com/pmalek-sumo/telegraf"
 	"github.com/pmalek-sumo/telegraf/internal"
 )
 
@@ -107,7 +107,7 @@ func (p *Service) Start(telegraf.Accumulator) (err error) {
 	connectionString := p.Address
 
 	// Specific support to make it work with PgBouncer too
-	// See https://github.com/influxdata/telegraf/issues/3253#issuecomment-357505343
+	// See https://github.com/pmalek-sumo/telegraf/issues/3253#issuecomment-357505343
 	if p.IsPgBouncer {
 		d := &stdlib.DriverConfig{
 			ConnConfig: pgx.ConnConfig{

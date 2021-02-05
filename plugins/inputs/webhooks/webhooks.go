@@ -8,15 +8,15 @@ import (
 	"reflect"
 
 	"github.com/gorilla/mux"
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs"
 
-	"github.com/influxdata/telegraf/plugins/inputs/webhooks/filestack"
-	"github.com/influxdata/telegraf/plugins/inputs/webhooks/github"
-	"github.com/influxdata/telegraf/plugins/inputs/webhooks/mandrill"
-	"github.com/influxdata/telegraf/plugins/inputs/webhooks/papertrail"
-	"github.com/influxdata/telegraf/plugins/inputs/webhooks/particle"
-	"github.com/influxdata/telegraf/plugins/inputs/webhooks/rollbar"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs/webhooks/filestack"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs/webhooks/github"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs/webhooks/mandrill"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs/webhooks/papertrail"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs/webhooks/particle"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs/webhooks/rollbar"
 )
 
 type Webhook interface {

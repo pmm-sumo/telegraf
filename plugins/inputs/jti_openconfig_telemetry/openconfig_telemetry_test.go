@@ -11,8 +11,8 @@ import (
 	"google.golang.org/grpc"
 
 	"github.com/pmalek-sumo/telegraf/internal"
-	"github.com/influxdata/telegraf/plugins/inputs/jti_openconfig_telemetry/oc"
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/pmalek-sumo/telegraf/plugins/inputs/jti_openconfig_telemetry/oc"
+	"github.com/pmalek-sumo/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/influxdata/telegraf/testutil"
+	"github.com/pmalek-sumo/telegraf/testutil"
 	"github.com/influxdata/toml"
 	"github.com/influxdata/toml/ast"
 	"github.com/stretchr/testify/assert"

@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdata/telegraf"
-	"github.com/influxdata/telegraf/agent"
+	"github.com/pmalek-sumo/telegraf"
+	"github.com/pmalek-sumo/telegraf/agent"
 )
 
 // AddInput adds the input to the shim. Later calls to Run() will run this input.
