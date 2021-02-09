@@ -38,7 +38,7 @@ require (
 	github.com/docker/go-units v0.4.0 // indirect
 	github.com/docker/libnetwork v0.8.0-dev.2.0.20181012153825-d7b61745d166
 	github.com/eclipse/paho.mqtt.golang v1.2.0
-	github.com/ericchiang/k8s v1.2.0
+	// github.com/ericchiang/k8s v1.2.0
 	github.com/ghodss/yaml v1.0.1-0.20190212211648-25d852aebe32
 	github.com/go-logfmt/logfmt v0.5.0
 	github.com/go-ping/ping v0.0.0-20201115131931-3300c582a663
@@ -137,10 +137,10 @@ require (
 // replaced due to https://github.com/satori/go.uuid/issues/73
 replace github.com/satori/go.uuid => github.com/gofrs/uuid v3.2.0+incompatible
 
-replace (
-	github.com/influxdata/telegraf/agent => ./agent
-	github.com/influxdata/telegraf/config => ./config
-	github.com/influxdata/telegraf/internal => ./internal
-	github.com/influxdata/telegraf/plugins/inputs/consul => ./plugins/inputs/consul
-	github.com/influxdata/telegraf/plugins/inputs/internal => ./plugins/inputs/internal
-)
+// replace (
+// 	github.com/influxdata/telegraf/agent => ./agent
+// 	github.com/influxdata/telegraf/config => ./config
+// 	github.com/influxdata/telegraf/internal => ./internal
+// 	github.com/influxdata/telegraf/plugins/inputs/consul => ./plugins/inputs/consul
+// 	github.com/influxdata/telegraf/plugins/inputs/internal => ./plugins/inputs/internal
+// )
