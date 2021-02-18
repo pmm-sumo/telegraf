@@ -6,7 +6,7 @@ import (
 
 	"github.com/ericchiang/k8s/apis/apps/v1"
 
-	"github.com/pmalek-sumo/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 func collectDaemonSets(ctx context.Context, acc telegraf.Accumulator, ki *KubernetesInventory) {

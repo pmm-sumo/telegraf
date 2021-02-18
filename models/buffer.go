@@ -3,8 +3,8 @@ package models
 import (
 	"sync"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/selfstat"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/selfstat"
 )
 
 var (

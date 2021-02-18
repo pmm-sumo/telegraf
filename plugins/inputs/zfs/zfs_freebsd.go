@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/inputs"
 )
 
 func (z *Zfs) gatherPoolStats(acc telegraf.Accumulator) (string, error) {

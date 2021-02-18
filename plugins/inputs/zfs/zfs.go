@@ -1,7 +1,7 @@
 package zfs
 
 import (
-	"github.com/pmalek-sumo/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 type Sysctl func(metric string) ([]string, error)

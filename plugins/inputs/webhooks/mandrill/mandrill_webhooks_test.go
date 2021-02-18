@@ -1,7 +1,7 @@
 package mandrill
 
 import (
-	"github.com/pmalek-sumo/telegraf/testutil"
+	"github.com/influxdata/telegraf/testutil"
 	"net/http"
 	"net/http/httptest"
 	"net/url"

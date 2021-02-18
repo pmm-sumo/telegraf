@@ -8,13 +8,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/config"
-	"github.com/pmalek-sumo/telegraf/internal/process"
-	"github.com/pmalek-sumo/telegraf/plugins/parsers"
-	"github.com/pmalek-sumo/telegraf/plugins/parsers/influx"
-	"github.com/pmalek-sumo/telegraf/plugins/processors"
-	"github.com/pmalek-sumo/telegraf/plugins/serializers"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/config"
+	"github.com/influxdata/telegraf/internal/process"
+	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/influxdata/telegraf/plugins/parsers/influx"
+	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/influxdata/telegraf/plugins/serializers"
 )
 
 const sampleConfig = `

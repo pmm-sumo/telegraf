@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/plugins/inputs/sflow/binaryio"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/inputs/sflow/binaryio"
 	"github.com/pkg/errors"
 )
 

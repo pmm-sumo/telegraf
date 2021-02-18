@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"github.com/gogo/protobuf/proto"
 	"github.com/golang/snappy"
-	"github.com/pmalek-sumo/telegraf/plugins/serializers/prometheus"
+	"github.com/influxdata/telegraf/plugins/serializers/prometheus"
 	"hash/fnv"
 	"sort"
 	"strconv"
 	"strings"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
+	"github.com/influxdata/telegraf"
 	"github.com/prometheus/prometheus/prompb"
 )
 

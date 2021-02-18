@@ -1,8 +1,8 @@
 package processors
 
 import (
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/models"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/models"
 )
 
 // NewStreamingProcessorFromProcessor is a converter that turns a standard

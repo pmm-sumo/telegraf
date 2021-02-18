@@ -6,7 +6,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 // NewSeriesGrouper returns a type that can be used to group fields by series

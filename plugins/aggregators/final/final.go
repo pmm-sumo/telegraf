@@ -3,9 +3,9 @@ package final
 import (
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/internal"
-	"github.com/pmalek-sumo/telegraf/plugins/aggregators"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/internal"
+	"github.com/influxdata/telegraf/plugins/aggregators"
 )
 
 var sampleConfig = `

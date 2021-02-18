@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/pmalek-sumo/telegraf/internal"
+	"github.com/influxdata/telegraf/internal"
 )
 
 type empty struct{}

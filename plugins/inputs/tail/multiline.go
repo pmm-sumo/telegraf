@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf/internal"
+	"github.com/influxdata/telegraf/internal"
 )
 
 // Indicates relation to the multiline event: previous or next

@@ -3,9 +3,9 @@ package hddtemp
 import (
 	"net"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/plugins/inputs"
-	gohddtemp "github.com/pmalek-sumo/telegraf/plugins/inputs/hddtemp/go-hddtemp"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/inputs"
+	gohddtemp "github.com/influxdata/telegraf/plugins/inputs/hddtemp/go-hddtemp"
 )
 
 const defaultAddress = "127.0.0.1:7634"

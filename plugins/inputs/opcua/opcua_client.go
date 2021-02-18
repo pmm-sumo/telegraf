@@ -11,10 +11,10 @@ import (
 
 	"github.com/gopcua/opcua"
 	"github.com/gopcua/opcua/ua"
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/config"
-	"github.com/pmalek-sumo/telegraf/plugins/inputs"
-	"github.com/pmalek-sumo/telegraf/selfstat"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/config"
+	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf/selfstat"
 )
 
 // OpcUA type

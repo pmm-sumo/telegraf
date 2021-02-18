@@ -2,18 +2,18 @@ package serializers
 
 import (
 	"fmt"
-	"github.com/pmalek-sumo/telegraf/plugins/serializers/prometheusremotewrite"
+	"github.com/influxdata/telegraf/plugins/serializers/prometheusremotewrite"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/plugins/serializers/carbon2"
-	"github.com/pmalek-sumo/telegraf/plugins/serializers/graphite"
-	"github.com/pmalek-sumo/telegraf/plugins/serializers/influx"
-	"github.com/pmalek-sumo/telegraf/plugins/serializers/json"
-	"github.com/pmalek-sumo/telegraf/plugins/serializers/nowmetric"
-	"github.com/pmalek-sumo/telegraf/plugins/serializers/prometheus"
-	"github.com/pmalek-sumo/telegraf/plugins/serializers/splunkmetric"
-	"github.com/pmalek-sumo/telegraf/plugins/serializers/wavefront"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/serializers/carbon2"
+	"github.com/influxdata/telegraf/plugins/serializers/graphite"
+	"github.com/influxdata/telegraf/plugins/serializers/influx"
+	"github.com/influxdata/telegraf/plugins/serializers/json"
+	"github.com/influxdata/telegraf/plugins/serializers/nowmetric"
+	"github.com/influxdata/telegraf/plugins/serializers/prometheus"
+	"github.com/influxdata/telegraf/plugins/serializers/splunkmetric"
+	"github.com/influxdata/telegraf/plugins/serializers/wavefront"
 )
 
 // SerializerOutput is an interface for output plugins that are able to

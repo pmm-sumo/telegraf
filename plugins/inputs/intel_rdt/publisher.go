@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 // Publisher for publish new RDT metrics to telegraf accumulator

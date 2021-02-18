@@ -3,8 +3,8 @@
 package infiniband
 
 import (
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/inputs"
 )
 
 func (i *Infiniband) Init() error {

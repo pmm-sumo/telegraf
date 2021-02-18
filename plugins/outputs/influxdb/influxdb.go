@@ -8,11 +8,11 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/internal"
-	"github.com/pmalek-sumo/telegraf/plugins/common/tls"
-	"github.com/pmalek-sumo/telegraf/plugins/outputs"
-	"github.com/pmalek-sumo/telegraf/plugins/serializers/influx"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/internal"
+	"github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/influxdata/telegraf/plugins/serializers/influx"
 )
 
 var (

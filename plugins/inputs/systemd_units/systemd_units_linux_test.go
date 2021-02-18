@@ -6,8 +6,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/pmalek-sumo/telegraf/internal"
-	"github.com/pmalek-sumo/telegraf/testutil"
+	"github.com/influxdata/telegraf/internal"
+	"github.com/influxdata/telegraf/testutil"
 )
 
 func TestSystemdUnits(t *testing.T) {

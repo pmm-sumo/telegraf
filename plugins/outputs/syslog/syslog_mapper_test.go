@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf/metric"
+	"github.com/influxdata/telegraf/metric"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

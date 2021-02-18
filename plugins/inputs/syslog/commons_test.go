@@ -3,10 +3,10 @@ package syslog
 import (
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/internal"
-	framing "github.com/pmalek-sumo/telegraf/internal/syslog"
-	"github.com/pmalek-sumo/telegraf/testutil"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/internal"
+	framing "github.com/influxdata/telegraf/internal/syslog"
+	"github.com/influxdata/telegraf/testutil"
 )
 
 var (

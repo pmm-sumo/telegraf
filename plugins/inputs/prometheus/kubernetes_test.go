@@ -4,7 +4,7 @@ import (
 	"github.com/ericchiang/k8s"
 	"testing"
 
-	"github.com/pmalek-sumo/telegraf/testutil"
+	"github.com/influxdata/telegraf/testutil"
 	"github.com/stretchr/testify/assert"
 
 	v1 "github.com/ericchiang/k8s/apis/core/v1"

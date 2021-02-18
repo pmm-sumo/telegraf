@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf/internal"
-	"github.com/pmalek-sumo/telegraf/testutil"
+	"github.com/influxdata/telegraf/internal"
+	"github.com/influxdata/telegraf/testutil"
 	riemanngo "github.com/riemann/riemann-go-client"
 	"github.com/stretchr/testify/require"
 	"gotest.tools/assert"

@@ -11,11 +11,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/internal"
-	tlsint "github.com/pmalek-sumo/telegraf/plugins/common/tls"
-	"github.com/pmalek-sumo/telegraf/plugins/inputs"
-	"github.com/pmalek-sumo/telegraf/plugins/parsers"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/internal"
+	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf/plugins/parsers"
 )
 
 // defaultMaxBodySize is the default maximum request body size, in bytes.
@@ -109,7 +109,7 @@ const sampleConfig = `
   ## Data format to consume.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/pmalek-sumo/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 `
 

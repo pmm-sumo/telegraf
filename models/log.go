@@ -4,7 +4,7 @@ import (
 	"log"
 	"reflect"
 
-	"github.com/pmalek-sumo/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 // Logger defines a logging structure for plugins.

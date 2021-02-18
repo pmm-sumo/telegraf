@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/testutil"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -212,7 +212,7 @@ func TestBadWhenNTPQ(t *testing.T) {
 }
 
 // TestParserNTPQ - realated to:
-// https://github.com/pmalek-sumo/telegraf/issues/2386
+// https://github.com/influxdata/telegraf/issues/2386
 func TestParserNTPQ(t *testing.T) {
 	tt := tester{
 		ret: []byte(multiParserNTPQ),

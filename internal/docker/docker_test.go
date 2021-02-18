@@ -3,7 +3,7 @@ package docker_test
 import (
 	"testing"
 
-	"github.com/pmalek-sumo/telegraf/internal/docker"
+	"github.com/influxdata/telegraf/internal/docker"
 	"github.com/stretchr/testify/require"
 )
 

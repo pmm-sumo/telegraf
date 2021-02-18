@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/testutil"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/testutil"
 	dto "github.com/prometheus/client_model/go"
 	"github.com/stretchr/testify/require"
 )

@@ -5,7 +5,7 @@ import (
 
 	v1 "github.com/ericchiang/k8s/apis/core/v1"
 
-	"github.com/pmalek-sumo/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 func collectPods(ctx context.Context, acc telegraf.Accumulator, ki *KubernetesInventory) {

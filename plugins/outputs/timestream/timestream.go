@@ -8,13 +8,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/plugins/outputs"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/outputs"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/awserr"
 	"github.com/aws/aws-sdk-go/service/timestreamwrite"
-	internalaws "github.com/pmalek-sumo/telegraf/config/aws"
+	internalaws "github.com/influxdata/telegraf/config/aws"
 )
 
 type (

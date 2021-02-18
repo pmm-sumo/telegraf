@@ -1,7 +1,7 @@
 package infiniband
 
 import (
-	"github.com/pmalek-sumo/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 // Stores the configuration values for the infiniband plugin - as there are no

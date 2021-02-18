@@ -3,7 +3,7 @@
 package cgroup
 
 import (
-	"github.com/pmalek-sumo/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 func (g *CGroup) Gather(acc telegraf.Accumulator) error {

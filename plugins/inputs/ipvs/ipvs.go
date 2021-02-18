@@ -9,9 +9,9 @@ import (
 	"syscall"
 
 	"github.com/docker/libnetwork/ipvs"
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/plugins/common/logrus"
-	"github.com/pmalek-sumo/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/plugins/common/logrus"
+	"github.com/influxdata/telegraf/plugins/inputs"
 )
 
 // IPVS holds the state for this input plugin

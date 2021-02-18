@@ -12,10 +12,10 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/timestreamwrite"
-	"github.com/pmalek-sumo/telegraf"
-	internalaws "github.com/pmalek-sumo/telegraf/config/aws"
-	ts "github.com/pmalek-sumo/telegraf/plugins/outputs/timestream"
-	"github.com/pmalek-sumo/telegraf/testutil"
+	"github.com/influxdata/telegraf"
+	internalaws "github.com/influxdata/telegraf/config/aws"
+	ts "github.com/influxdata/telegraf/plugins/outputs/timestream"
+	"github.com/influxdata/telegraf/testutil"
 
 	"github.com/stretchr/testify/assert"
 )

@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
-	tgConfig "github.com/pmalek-sumo/telegraf/config"
-	"github.com/pmalek-sumo/telegraf/plugins/inputs"
-	"github.com/pmalek-sumo/telegraf/plugins/processors"
+	"github.com/influxdata/telegraf"
+	tgConfig "github.com/influxdata/telegraf/config"
+	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf/plugins/processors"
 	"github.com/stretchr/testify/require"
 )
 

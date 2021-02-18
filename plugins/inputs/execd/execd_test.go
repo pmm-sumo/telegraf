@@ -11,14 +11,14 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/agent"
-	"github.com/pmalek-sumo/telegraf/config"
-	"github.com/pmalek-sumo/telegraf/metric"
-	"github.com/pmalek-sumo/telegraf/models"
-	"github.com/pmalek-sumo/telegraf/plugins/parsers"
-	"github.com/pmalek-sumo/telegraf/plugins/serializers"
-	"github.com/pmalek-sumo/telegraf/testutil"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/agent"
+	"github.com/influxdata/telegraf/config"
+	"github.com/influxdata/telegraf/metric"
+	"github.com/influxdata/telegraf/models"
+	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/influxdata/telegraf/plugins/serializers"
+	"github.com/influxdata/telegraf/testutil"
 )
 
 func TestSettingConfigWorks(t *testing.T) {

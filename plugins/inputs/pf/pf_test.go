@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/pmalek-sumo/telegraf/testutil"
+	"github.com/influxdata/telegraf/testutil"
 )
 
 type measurementResult struct {

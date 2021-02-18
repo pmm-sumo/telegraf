@@ -1,8 +1,8 @@
 package topk
 
 import (
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/metric"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/metric"
 	"time"
 )
 

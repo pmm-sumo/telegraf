@@ -10,12 +10,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/internal"
-	tlsint "github.com/pmalek-sumo/telegraf/plugins/common/tls"
-	"github.com/pmalek-sumo/telegraf/plugins/outputs"
-	"github.com/pmalek-sumo/telegraf/plugins/outputs/prometheus_client/v1"
-	"github.com/pmalek-sumo/telegraf/plugins/outputs/prometheus_client/v2"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/internal"
+	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/influxdata/telegraf/plugins/outputs"
+	"github.com/influxdata/telegraf/plugins/outputs/prometheus_client/v1"
+	"github.com/influxdata/telegraf/plugins/outputs/prometheus_client/v2"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

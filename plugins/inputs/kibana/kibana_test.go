@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pmalek-sumo/telegraf/testutil"
+	"github.com/influxdata/telegraf/testutil"
 )
 
 func defaultTags6_3() map[string]string {

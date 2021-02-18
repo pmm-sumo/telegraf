@@ -5,7 +5,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf/metric"
+	"github.com/influxdata/telegraf/metric"
 	"go.starlark.net/starlark"
 )
 

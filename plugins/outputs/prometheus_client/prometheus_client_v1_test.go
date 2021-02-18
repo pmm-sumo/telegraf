@@ -9,9 +9,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
-	inputs "github.com/pmalek-sumo/telegraf/plugins/inputs/prometheus"
-	"github.com/pmalek-sumo/telegraf/testutil"
+	"github.com/influxdata/telegraf"
+	inputs "github.com/influxdata/telegraf/plugins/inputs/prometheus"
+	"github.com/influxdata/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

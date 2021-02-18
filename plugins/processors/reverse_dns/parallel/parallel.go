@@ -1,6 +1,6 @@
 package parallel
 
-import "github.com/pmalek-sumo/telegraf"
+import "github.com/influxdata/telegraf"
 
 type Parallel interface {
 	Enqueue(telegraf.Metric)

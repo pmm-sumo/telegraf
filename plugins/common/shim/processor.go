@@ -6,10 +6,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/agent"
-	"github.com/pmalek-sumo/telegraf/plugins/parsers"
-	"github.com/pmalek-sumo/telegraf/plugins/processors"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/agent"
+	"github.com/influxdata/telegraf/plugins/parsers"
+	"github.com/influxdata/telegraf/plugins/processors"
 )
 
 // AddProcessor adds the processor to the shim. Later calls to Run() will run this.

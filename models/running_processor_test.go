@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/models"
-	"github.com/pmalek-sumo/telegraf/plugins/processors"
-	"github.com/pmalek-sumo/telegraf/testutil"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/models"
+	"github.com/influxdata/telegraf/plugins/processors"
+	"github.com/influxdata/telegraf/testutil"
 	"github.com/stretchr/testify/require"
 )
 

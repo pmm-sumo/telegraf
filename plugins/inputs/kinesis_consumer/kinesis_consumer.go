@@ -13,10 +13,10 @@ import (
 	consumer "github.com/harlow/kinesis-consumer"
 	"github.com/harlow/kinesis-consumer/checkpoint/ddb"
 
-	"github.com/pmalek-sumo/telegraf"
-	internalaws "github.com/pmalek-sumo/telegraf/config/aws"
-	"github.com/pmalek-sumo/telegraf/plugins/inputs"
-	"github.com/pmalek-sumo/telegraf/plugins/parsers"
+	"github.com/influxdata/telegraf"
+	internalaws "github.com/influxdata/telegraf/config/aws"
+	"github.com/influxdata/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf/plugins/parsers"
 )
 
 type (
@@ -115,7 +115,7 @@ var sampleConfig = `
   ## Data format to consume.
   ## Each data format has its own unique set of configuration options, read
   ## more about them here:
-  ## https://github.com/pmalek-sumo/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
+  ## https://github.com/influxdata/telegraf/blob/master/docs/DATA_FORMATS_INPUT.md
   data_format = "influx"
 
   ## Optional

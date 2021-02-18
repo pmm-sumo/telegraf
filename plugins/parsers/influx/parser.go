@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
+	"github.com/influxdata/telegraf"
 )
 
 const (

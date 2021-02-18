@@ -17,9 +17,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/internal/choice"
-	"github.com/pmalek-sumo/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/internal/choice"
+	"github.com/influxdata/telegraf/plugins/inputs"
 )
 
 const (

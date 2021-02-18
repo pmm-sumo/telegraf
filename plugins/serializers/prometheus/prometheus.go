@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf"
+	"github.com/influxdata/telegraf"
 	"github.com/prometheus/common/expfmt"
 )
 

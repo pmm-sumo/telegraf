@@ -3,8 +3,8 @@ package hddtemp
 import (
 	"testing"
 
-	hddtemp "github.com/pmalek-sumo/telegraf/plugins/inputs/hddtemp/go-hddtemp"
-	"github.com/pmalek-sumo/telegraf/testutil"
+	hddtemp "github.com/influxdata/telegraf/plugins/inputs/hddtemp/go-hddtemp"
+	"github.com/influxdata/telegraf/testutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

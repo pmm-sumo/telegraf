@@ -15,13 +15,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pmalek-sumo/telegraf/metric"
+	"github.com/influxdata/telegraf/metric"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/pmalek-sumo/telegraf"
-	"github.com/pmalek-sumo/telegraf/internal"
-	tlsint "github.com/pmalek-sumo/telegraf/plugins/common/tls"
-	"github.com/pmalek-sumo/telegraf/plugins/inputs"
+	"github.com/influxdata/telegraf"
+	"github.com/influxdata/telegraf/internal"
+	tlsint "github.com/influxdata/telegraf/plugins/common/tls"
+	"github.com/influxdata/telegraf/plugins/inputs"
 	riemanngo "github.com/riemann/riemann-go-client"
 	riemangoProto "github.com/riemann/riemann-go-client/proto"
 )
